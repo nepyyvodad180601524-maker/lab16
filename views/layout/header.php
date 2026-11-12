@@ -2,15 +2,14 @@
 <html lang="uk">
 <head>
     <meta charset="UTF-8">
-    <title>Мій блог</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Мій блог (MVC)</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
-    <style>
-        body { font-family: sans-serif; margin: 40px; background-color: #fafafa; }
-        header { text-align: center; }
-    </style>
 </head>
-<body>
-<header>
-    <h1 class="text-primary">Мій блог</h1>
-    <hr>
-</header>
+<body class="bg-light">
+<div class="container my-4" style="max-width: 800px;">
+    <header class="text-center mb-4">
+        <h1 class="text-primary">Мій блог</h1>
+        <p class="text-muted">PHP MVC + Parsedown + Bootstrap</p>
+        <hr>
+    </header>

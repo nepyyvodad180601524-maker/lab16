@@ -11,5 +11,7 @@
             "email": "nepyyvoda.d1806.015.24@lntu.edu.ua"
         }
     ],
-    "require": {}
+    "require": {
+        "erusev/parsedown": "^1.8"
+    }
 }
